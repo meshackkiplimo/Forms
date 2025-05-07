@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practising Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Practising Forms</h1>
+    <form class="form" action="" method="">
+        <label for="name">Name:</label><br>
+        <input class="name" type="text" id="name" name="name" placeholder="enter your name"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input class="email" type="email" id="email" placeholder="enter your email" name="email"><br><br>
+        
+        <label for="age">Age:</label><br>
+        <input class=" age" type="number" id="age" name="age" placeholder="enter your age"><br><br>
+
+        <label for="date">date of birth</label>
+        <input class="date-birth" type="date" id="date" placeholder="enter your dob" name="date"><br><br>
+        
+        <label for="text">major you studied</label>
+        <select name="your major" id="major">
+            <option value="computer science">computer science</option>
+            <option value="business">business</option>
+            <option value="arts">arts</option>
+            <option value="engineering">engineering</option>
+            <option value="other">other</option>
+
+
+
+        </select><br><br>
+        <form action="">
+
+            <fieldset>
+                <legend>Courses you did</legend>
+                <input class="checkbox" type="checkbox" id="prog-unit1" name="intro-prog" value="unit1">
+                <label for="prog-unit1">Unit 1: Basics of Coding</label><br>
+                
+                <input type="checkbox" id="prog-unit2" name="intro-prog" value="unit2">
+                <label for="prog-unit2">Unit 2: Variables and Data Types</label><br>
+                
+                <input type="checkbox" id="prog-unit3" name="intro-prog" value="unit3">
+                <label for="prog-unit3">Unit 3: Control Structures</label>
+              </fieldset>
+              <p>graduation year between 2020-2024</p>
+                <input type="radio" id="2020" name="graduation-year" value="2020">
+                <label for="2020">2020</label><br>
+                <input type="radio" id="2021" name="graduation-year" value="2021">
+                <label for="2021">2021</label><br>
+                <input type="radio" id="2022" name="graduation-year" value="2022">
+                <label for="2022">2022</label><br>
+                <input class="radio" type="radio" id="2023" name="graduation-year" value="2023">
+                <label for="2023">2023</label><br>
+                <input class="radio" type="radio" id="2024" name="graduation-year" value="2024">
+                <label for="2024">2024</label><br><br>
+
+        </form>
+        <p>Tell us about yourself:</p>
+        <textarea id="text" name="text" rows="4" cols="50" placeholder="tell us about yourself"></textarea><br><br>
+
+        
+        <button type="submit">submit</button>
+       
+    </form>
+
+
+   
+
+    
+</body>
+</html>
